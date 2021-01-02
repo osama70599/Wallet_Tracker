@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="415.0" prefWidth="600.0" style="-fx-background-color: #000E44;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vallettracker.FXMLDocumentController">
+   <children>
+      <Button fx:id="login" layoutX="353.0" layoutY="208.0" mnemonicParsing="false" onAction="#login" prefHeight="31.0" prefWidth="210.0" stylesheets="@VallettrackerCss.css" text="Login" textFill="#063578" AnchorPane.leftAnchor="353.0" AnchorPane.rightAnchor="37.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="signup" layoutX="353.0" layoutY="292.0" mnemonicParsing="false" onAction="#signup" prefHeight="31.0" prefWidth="210.0" stylesheets="@VallettrackerCss.css" text="Creat one now" textFill="#063578" AnchorPane.bottomAnchor="92.0" AnchorPane.leftAnchor="353.0" AnchorPane.rightAnchor="37.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="422.0" fitWidth="300.0" layoutX="14.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="56.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="286.0" AnchorPane.topAnchor="59.0">
+         <image>
+            <Image url="@../media/ab.gif" />
+         </image>
+      </ImageView>
+      <TextField fx:id="email" layoutX="353.0" layoutY="79.0" prefHeight="31.0" prefWidth="210.0" promptText="email or username" AnchorPane.leftAnchor="353.0" AnchorPane.rightAnchor="37.0" AnchorPane.topAnchor="79.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="password" layoutX="353.0" layoutY="131.0" prefHeight="31.0" prefWidth="210.0" promptText="passwrod" AnchorPane.leftAnchor="353.0" AnchorPane.rightAnchor="37.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="380.0" layoutY="251.0" prefHeight="31.0" prefWidth="157.0" text="Don't have a account?" textFill="#3dadff" AnchorPane.leftAnchor="380.0" AnchorPane.rightAnchor="63.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="label" layoutX="411.0" layoutY="169.0" prefHeight="31.0" prefWidth="94.0" textFill="#3dadff" AnchorPane.leftAnchor="411.0" AnchorPane.rightAnchor="95.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
